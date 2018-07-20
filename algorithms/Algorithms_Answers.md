@@ -19,15 +19,15 @@ g)time complexity in worst case situation is O(n).
 Exercise II:
 
 a) def max_value(array):
-     max = 0
-     min = 0
-     for i in arr:
+    max = 0
+    min = 0
+    for i in arr:
        if i > max:
          max = i
        if element < i:
          min = i
 
-     return max - min
+    return max - min
      
 b)let's assume f = n/2 and begin finding the optimum value of f based on the result.
 def find_f(n):
